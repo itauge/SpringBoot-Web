@@ -1,13 +1,16 @@
 server:
   port: 81
 
-#這個會導致index失效，favicon失效
+
 spring:
   mvc:
-    static-path-pattern: /res/**
+#    static-path-pattern: /res/**
+    hiddenmethod:
+      filter:
+        enabled: true
 
+#這個會導致index失效，favicon失效
 #  web:
 #    resources:
 #      static-locations: /hey/
-
 

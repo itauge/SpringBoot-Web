@@ -5,6 +5,34 @@
     <title>Title</title>
 </head>
 <body>
-Hello index
+測試Resful風格:
+
+<a href="/car/2/heyl">test</a>
+
+<form action="/save" method="post" >
+    <input type="text" name="username"><br>
+    <input type="password" name="password"><br>
+    <input type="submit" value="submit">
+</form>
+
+<form action="/user" method="get">
+    <input value="REST-GET提交" type="submit" />
+</form>
+
+<form action="/user" method="post">
+    <input value="REST-POST提交" type="submit" />
+</form>
+
+<form action="/user" method="post">
+    <input name="_method" type="hidden" value="DELETE"/>
+    <input name="_m" type="hidden" value="DELETE"/>
+    <input value="REST-DELETE 提交" type="submit"/>
+</form>
+
+<form action="/user" method="post">
+    <input name="_method" type="hidden" value="PUT" />
+    <input value="REST-PUT提交"type="submit" />
+</form>
+
 </body>
 </html>
