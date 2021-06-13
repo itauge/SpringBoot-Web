@@ -1,0 +1,13 @@
+server:
+  port: 81
+
+#這個會導致index失效，favicon失效
+spring:
+  mvc:
+    static-path-pattern: /res/**
+
+#  web:
+#    resources:
+#      static-locations: /hey/
+
+
