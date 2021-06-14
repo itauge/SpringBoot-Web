@@ -1,5 +1,8 @@
 server:
   port: 81
+#  設置默認前綴路徑
+#  servlet:
+#    context-path: /world
 
 
 spring:
@@ -13,4 +16,5 @@ spring:
 #  web:
 #    resources:
 #      static-locations: /hey/
+
 
